@@ -50,7 +50,7 @@ class MailerController extends AbstractController
 
             // utiliser la même syntaxe pour les images intégrées en tant que background
             ->html('... <div background="cid:footer-signature"> ... </div> ...')
-        ;
+          ;
 
         $mailer->send($email);
 
